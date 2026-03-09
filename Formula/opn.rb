@@ -1,8 +1,9 @@
 class Opn < Formula
   desc "Modern, human-friendly replacement for lsof"
   homepage "https://github.com/monroestephenson/opn"
-  url "https://github.com/monroestephenson/opn/archive/refs/tags/v0.2.1.tar.gz"
-  sha256 "55283bcd02f89dfffbeeb25bb3ae96f70197b9b60042b1b646d07943f3dec635"
+  url "https://github.com/monroestephenson/opn/archive/refs/tags/v0.3.1.tar.gz"
+  version "0.3.1"
+  sha256 "ccd7a2eed3ea23542b72c78df833c4679aa51c29c5c3e94f3b935f58fdce955e"
   license "MIT"
 
   depends_on "rust" => :build
